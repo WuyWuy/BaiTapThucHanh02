@@ -5,9 +5,7 @@
 
         private int iTuSo;
         private int iMauSo;
-        // Đây là auto-implement properties
-        // Nghĩa là các thuộc tính private hết còn phương thức get set là public
-        // public dù để ở trước biến nhưng nó chỉ nhắm 2 phương thức kia 
+
         public PhanSo(int iNum = 0, int iDen = 1)
         {
             iTuSo = iNum; iMauSo = iDen;
@@ -108,3 +106,4 @@
 
     }
 }
+
